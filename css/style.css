@@ -1,0 +1,507 @@
+
+
+body{
+    display: flex;
+    width: 1440px;
+    background-color: #EDEDED;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.containerMenu{
+    display: flex;
+    width: 1136px;
+    padding: 32px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerPrincipal-titulo{
+   font-size: 16px;
+   font-family: "Raleway";
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}   
+
+.menuLinks{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.menuLink-list{
+    font-size: 16px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #464646;
+}
+
+.menuLink-list-app{
+    color: #464646;
+    font-weight: 700;
+}
+
+.contenidoMain{
+    display: flex;
+    width: 1136px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentMain{
+    display: flex;
+    width: 751px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex-shrink: 0;
+}
+
+.mainHeader{
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    font-size: 52px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #464646;
+}
+
+.text-main{
+    display: flex;
+    color: #464646;
+    font-size: 22px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400px;
+}
+
+.contenidoPrincipal-list{
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.contenidoPrincipal-link a{
+    display: flex;
+    align-items: center;
+    /* gap: 48px; */
+    color: #464646;
+    text-decoration: none;
+} 
+
+.content-img{
+    width: 368px;
+    border-radius: 50%;
+}
+
+.container-sobremi{
+    display: flex;
+    padding: 64px;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0px 30px 0px;
+    background-color: #EAF2FD;
+}
+
+.content-sobremi{
+    display: flex;
+    width: 1136px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.header-sobremi{
+    color: #464646;
+    font-size: 32px;
+    font-family: "Raleway";
+    font-weight: 700;
+}
+
+.texto-sobremi{
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.firma{
+    width: 140px;
+    height: 52px;
+}
+
+.containerSH{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 88px;
+    align-self: stretch;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.skillsTitle{
+    color: #464646;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.skillsList{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.skillsContainer{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    background-color: #ffffff;
+}
+
+.icon{
+    color: #2A7AE4;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.skillsText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #464646;
+    text-decoration: none;
+}
+
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.hobbiesTitle{
+    text-align: center;
+    color: #464646;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hoobbiesList{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.hobbiesContainer{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    background-color: #ffffff;
+}
+
+.icon2{
+    color: #2A7AE4;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Font Awesome 5 Brands';
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.hobbieText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #464646;
+    text-decoration: none;
+}
+
+.fomacionAcademica{
+    display: flex;
+    padding: 82px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.academiaTitulo{
+    text-align: center;
+    color: #464646;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.academiaList{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.academiaContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.cuadro{
+    display: flex;
+    width: 368px;
+    height: 286px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon3{
+    width: 192px;
+    height: 160px;
+    flex-shrink: 0;
+}
+
+.academiaText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #464646;
+    text-decoration: none;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.projectHeader{
+    color: #464646;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.projectList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.projectLink{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 1136px;
+    align-items: center;
+    gap: 16px;
+}
+
+.headerP{
+    display: flex;
+    flex-direction: column;
+    color: #464646;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.iconop{
+    display: flex;
+    width: 600px;
+    flex-shrink: 0;
+    align-self: stretch;
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footerW{
+    display: flex;
+    width: 1440px;
+    padding: 64px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #EAF2FD;
+}
+
+.containerFt{
+    display: flex;
+    width: 1136px;
+    padding: 64px;
+    align-items: center;
+    gap: 16px;
+}
+
+.containerFt img{
+    width: 450px;
+}
+
+.format{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.headerF{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.headerF h2{
+    color: #464646;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.headerF p{
+    color: #464646;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.nombreContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#nombre{
+    display: flex;
+    padding: 8px;
+    width: 400px;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 4px;
+}
+
+.nombreContainer label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #A2A2A2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.emailConteiner{
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}
+
+#email{
+    display: flex;
+    padding: 8px;
+    width: 400px;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 4px;
+}
+
+.emailConteiner label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #A2A2A2;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#asunto{
+    display: flex;
+    padding: 8px;
+    width: 400px;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 4px;
+}
+
+
+#mensaje{
+    display: flex;
+    padding: 8px;
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+    gap: 7px;
+    border-radius: 4px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #2A7AE4;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 60%;
+    font-weight: 700;
+    border-width: initial;
+    border-style: solid;
+    border-color: #2A7AE4;
+    border-image: initial;
+    padding: 10px;
+}
+
+.containerLast{
+    display: flex;
+    width: 1505px;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+
